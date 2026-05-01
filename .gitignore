@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets
+dataset/
+dataset_stage1/
+dataset_temp/
+*.zip
+
+# Checkpoints & Outputs
+checkpoints/
+outputs/
+*.pth
+*.pth.tar
+
+# Logs
+*.log
+*.txt
+
+# Environments
+.env
+venv/
+env/
