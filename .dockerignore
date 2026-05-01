@@ -1,0 +1,19 @@
+# Ignore large datasets and zip files
+dataset/
+dataset_stage1/
+dataset_temp/
+*.zip
+
+# Ignore Flutter frontend source code (since this container is just for the API)
+Frontned/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore generated outputs
+outputs/
+
+# Note: We are explicitly NOT ignoring the 'checkpoints' folder because 
+# the Docker container needs the trained model weights to run inference!
